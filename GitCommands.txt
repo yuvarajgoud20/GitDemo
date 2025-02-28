@@ -1,0 +1,18 @@
+Basic Git Commands
+-----------------------------
+> ls -a ( to view hidden files )
+> git init ( to initialize a git repository )
+> git status ( status of the changes staged , commited etc )
+> git add . ( to stage the changes that are made )
+> git commit -m "Message" (Commit the changes)
+> git log ( too see the history of commits along with their hash IDs)
+> git reset <commitId> (deletes all the commits made after this commitID and bring the older version)
+> git stash (backstage the changes and we can get them back)
+> git stash pop ( reverse of above command )
+> git stash clear (Clean the stash area)
+
+GitHub
+---------------------------------
+> git remote add origin <url> ( adding remote repo url in origin variable)
+> git push origin master ( push your code to the origin url in master branch)
+>
