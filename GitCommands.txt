@@ -1,9 +1,5 @@
 Notes from Kunal's Git tutorial 
-<<<<<<< HEAD
-Hello Frends
-=======
-
->>>>>>> 4f278f54e1ed6b1fe50d3409d1e1eab51f623210
+Hii Frends
 Basic Git Commands
 -----------------------------
 > ls -a ( to view hidden files )
