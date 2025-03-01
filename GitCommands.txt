@@ -1,4 +1,4 @@
-This Notes gives you complete guide on how to use git 
+Notes from Kunal's Git tutorial 
 
 Basic Git Commands
 -----------------------------
