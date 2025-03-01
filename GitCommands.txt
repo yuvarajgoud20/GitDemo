@@ -1,3 +1,5 @@
+This Notes gives you complete guide on how to use git 
+
 Basic Git Commands
 -----------------------------
 > ls -a ( to view hidden files )
@@ -9,10 +11,34 @@ Basic Git Commands
 > git reset <commitId> (deletes all the commits made after this commitID and bring the older version)
 > git stash (backstage the changes and we can get them back)
 > git stash pop ( reverse of above command )
-> git stash clear (Clean the stash area)
+> git stash clear (Clean the stage area)
 
-GitHub
+GitHub - Connect remotely
 ---------------------------------
 > git remote add origin <url> ( adding remote repo url in origin variable)
 > git push origin master ( push your code to the origin url in master branch)
->
+> git push origin master -f ( to force push if online repository has any extra commits than your local repo)
+
+Branches in Git
+----------------------------------
+> git branch <branchName> ( to create a new branch)
+> git checkout <branchName> (to move to that branch)
+> git merge <branchName> ( merges that branch with main branch)
+
+How to contribute
+----------------------------------
+> Fork the project that you want to contribute to into your account
+> upstream us the url of the main project
+> git remote add upstream <url>
+> Create a new branch and checkout to it and make changes and commit
+> Push that code into that branch and create a pull request
+> If main branch of forked repo is some commits behind we can fetch all commits
+> git fetch --all --prune (fetch all changes)
+> git reset --hard upstream ( merge the changes )
+> git pull upstream main ( fetches and makes changes )
+
+Squashing your commits
+-----------------------------------
+> git rebase -i <commitId>
+> pick <main Commit>
+> s <merge this commit into pick>
