@@ -1,5 +1,5 @@
-This Notes gives you complete guide on how to use git 
-
+Notes from Kunal's Git tutorial 
+Hello Frends
 Basic Git Commands
 -----------------------------
 > ls -a ( to view hidden files )
